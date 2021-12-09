@@ -155,7 +155,7 @@ section {
     margin-bottom: 50px;
 }
 
-.section__description h1{
+.section__description h2{
     color: cyan;
     font-weight: bold;
     font-size: 30px;
@@ -163,7 +163,8 @@ section {
     margin-bottom: 20px;
 }
 
-.section__description h2{
+.section__description h3{
+    font-size: 22px;
     margin-top: 15px;
     margin-bottom: 15px;
 }
@@ -185,18 +186,7 @@ section {
     margin-bottom: 10px;
 }
 
-/* .skills{
-    float: left;
-    clear: left;
-    margin-right: 300px;
-    margin-left: 200px;
-}
-
-.profile {
-    float: left;
-} */
-
-.resume__button {
+/* .resume__button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -208,10 +198,74 @@ section {
     font-size: 16px;
     text-decoration: none;
     font-weight: bold;
+} */
+
+.resume__container {
+    background-color: #F0F3F4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.resume__header {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 100px;
+    margin-bottom: 24px;
+    color: cyan;
+    text-align: center;
+}
+
+.resume__description {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 24px;
+    color: black;
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+.resume__workitem {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    text-align: left;
+    width: 75%;
+    
+}
+
+.resume__workitem-place{
+    font-size: 30px;
+    font-weight: bold;
+    width: 50%;
+    padding-right: 150px;
+    padding-bottom: 250px;
+    border-right: 2px solid #34495E;
+}
+
+.resume__workitem-place p{
+    font-size: 15px;
+    font-weight: bold;
+    color: #34495E;
+}
+
+.resume__workitem-description h2 {
+    padding-left: 50px;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    width: 500px;
+    border-bottom: 2px solid #34495E;
+}
+
+.resume__workitem-description p {
+    padding-left: 50px;
+    max-width: 550px;
 }
 
 .contact__container {
     background-color: #34495E;
+    background-image: linear-gradient(#34495E, black);
     display: flex;
     flex-direction: column;
     justify-content: center;
