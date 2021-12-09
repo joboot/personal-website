@@ -3,6 +3,8 @@
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
 }
 
 .navbar {
@@ -93,4 +95,117 @@
     font-size: 20px;
     color: #ffffff;
     text-align: center;
+}
+
+.about {
+    background-color: black;
+    background-image: linear-gradient(black, #34495E);
+    height: 900px;
+    padding-left: 233px;
+    padding-right: 233px;
+    padding-top: 150px;
+
+}
+
+.about__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 90%;
+    padding: 30px;
+}
+
+.about__heading {
+    font-size: 40px;
+    margin-bottom: 24px;
+    color: white;
+    text-align: center;
+}
+
+.about__description1 {
+    font-size: 20px;
+    color: lightgrey;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+.about__description2 {
+    font-size: 20px;
+    color: lightgrey;
+}
+
+img {
+	float: left;
+    border: 2px solid #ffffff;
+    margin: 1.5em;
+    border-radius: 50%;
+    
+}
+section {
+    display: flex;
+    clear: left;
+    justify-content: center;
+    justify-content: space-evenly;
+    color: #ffffff;
+    margin-top: 70px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
+
+.section__description h1{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 30px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.section__description h2{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.section__description p{
+    color: lightgrey;
+    font-size: 20px;
+}
+
+.section__description ul {
+    color: lightgrey;
+    font-size: large;
+    list-style-type: none;
+    word-spacing: 2px;
+    
+}
+
+.section__description li {
+    margin-bottom: 10px;
+}
+
+/* .skills{
+    float: left;
+    clear: left;
+    margin-right: 300px;
+    margin-left: 200px;
+}
+
+.profile {
+    float: left;
+} */
+
+.resume__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cyan;
+    color: #ffffff;
+    padding: 15px 32px;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bold;
 }
