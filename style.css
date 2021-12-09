@@ -50,6 +50,47 @@
 }
 
 .nav__links:hover {
-    color: aqua;
+    color: cyan;
     transition: all 0.4s ease;
+}
+
+/* Hero section */
+
+.hero {
+    background-image: url("pexels-bri-schneiter-346529.jpg");
+    background-repeat: no-repeat;
+    background-size: 1920px 1080px;
+    padding: 233px;
+
+}
+
+.hero__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 90%;
+    padding: 30px;
+}
+
+.hero__heading {
+    font-size: 100px;
+    margin-bottom: 24px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.hero__description1 {
+    font-size: 30px;
+    color: #ffffff;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.hero__description2 {
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
 }
